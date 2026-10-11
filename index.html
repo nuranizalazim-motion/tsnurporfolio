@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nur Aniza Portfolio</title>
+<meta name="description" content="Ts. Nur Aniza Mohd Lazim — senior lecturer in Creative Motion Design, UiTM Puncak Alam. Motion, character design, research and teaching.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500&family=DM+Mono:wght@400&family=Hanken+Grotesk:wght@400;500&display=swap">
+<link rel="preload" as="image" href="assets/hero-poster.jpg">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="top" data-header>
+  <a class="top__name" href="#home">nur aniza</a>
+  <nav aria-label="Main">
+    <a href="#work">work</a>
+    <a href="#research">research</a>
+    <a href="#about">about me</a>
+    <a href="#contact">contact</a>
+    <a class="cv" href="assets/cv-nur-aniza.pdf" target="_blank" rel="noopener">cv ↗</a>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="intro">
+    <h1><span class="ts">ts.</span> nur aniza mohd lazim</h1>
+    <p>I teach <em>creative motion design</em>, make characters, and study how motion carries a message.</p>
+  </section>
+
+  <figure class="hero">
+    <div class="stage" data-hero tabindex="0" role="img"
+         aria-label="Animated 3D character of Miss Nur in a classroom holding a coffee cup. She turns her head to follow your cursor; with the keyboard, use the left and right arrow keys.">
+      <canvas></canvas>
+      <span class="stage__dot" data-hero-dot></span>
+      <span class="stage__hint"><i></i> <span class="mouse">move to say hello</span><span class="touch">drag to say hello</span></span>
+    </div>
+    <figcaption class="caption">
+      <div>
+        <h2>miss nur, in class</h2>
+        <p>3d character · interactive</p>
+      </div>
+      <span class="frame-count" aria-hidden="true">frame <b data-hero-frame>24</b> / 48</span>
+    </figcaption>
+  </figure>
+
+  <section class="section" id="work">
+    <div class="section__head">
+      <h2>work</h2>
+      <span class="label">selected · 2023–2026</span>
+    </div>
+
+    <div class="grid">
+      <a class="tile tile--8" href="https://dbfssr2026.streamlit.app/" target="_blank" rel="noopener" data-cursor="open">
+        <div class="tile__media">
+          <div class="cover-dash">
+            <div class="cover-dash__top">
+              <div class="cover-dash__title">dbfssr 2026<small>streamlit · built with codex</small></div>
+              <span class="live">live app</span>
+            </div>
+            <svg viewBox="0 0 600 240" aria-hidden="true">
+              <g fill="#ECE8E1" fill-opacity=".18">
+                <rect x="0" y="150" width="34" height="90"/><rect x="50" y="118" width="34" height="122"/>
+                <rect x="100" y="132" width="34" height="108"/><rect x="150" y="92" width="34" height="148"/>
+                <rect x="200" y="104" width="34" height="136"/><rect x="250" y="70" width="34" height="170"/>
+              </g>
+              <g fill="#EEA42D">
+                <rect x="300" y="88" width="34" height="152"/><rect x="350" y="56" width="34" height="184"/>
+                <rect x="400" y="74" width="34" height="166"/><rect x="450" y="40" width="34" height="200"/>
+              </g>
+              <g fill="#ECA686"><rect x="500" y="62" width="34" height="178"/><rect x="550" y="22" width="34" height="218"/></g>
+              <polyline points="17,130 67,104 117,112 167,78 217,86 267,56 317,70 367,40 417,54 467,24 517,44 567,8" fill="none" stroke="#ECE8E1" stroke-width="2"/>
+              <circle cx="567" cy="8" r="5" fill="#ECE8E1"/>
+            </svg>
+          </div>
+        </div>
+        <div class="tile__body">
+          <h3>fssr 2026 dashboard <span class="arrow">↗</span></h3>
+          <p>data visualisation</p>
+        </div>
+      </a>
+
+      <a class="tile tile--4" href="#about" data-cursor="meet">
+        <div class="tile__media">
+          <div class="cover-char"><img src="assets/miss-nur.png" alt="Flat vector illustration of Miss Nur: black hijab, houndstooth blazer, cobalt top, navy wide trousers, mustard socks." loading="lazy"></div>
+        </div>
+        <div class="tile__body">
+          <h3>miss nur</h3>
+          <p>character design</p>
+        </div>
+      </a>
+
+      <a class="tile tile--6" href="#home" data-cursor="play">
+        <div class="tile__media">
+          <video src="assets/classroom.mp4" poster="assets/hero-poster.jpg" muted loop playsinline preload="metadata" data-autoplay aria-label="Miss Nur in class, a 10-second 3D animation loop."></video>
+        </div>
+        <div class="tile__body">
+          <h3>in the classroom</h3>
+          <p>3d animation</p>
+        </div>
+      </a>
+
+      <a class="tile tile--6" href="#research" data-cursor="read">
+        <div class="tile__media">
+          <div class="cover-guide"><img src="assets/guide-cover.jpg" alt="Cover page of the teaching guide 'From photograph to character'." loading="lazy"></div>
+        </div>
+        <div class="tile__body">
+          <h3>from photograph to character</h3>
+          <p>teaching guide · character design</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="section__head">
+      <h2>research</h2>
+      <span class="label">indexed publications</span>
+    </div>
+    <ul class="stats">
+      <li><b>51</b> publications</li>
+      <li><b>16</b> indexed</li>
+      <li><b>3</b> research grants</li>
+      <li><b>1</b> consultation</li>
+    </ul>
+    <ul class="pubs" data-pubs>
+      <li><span class="t">A Case Study of Animated Book Covers for Promoting Publishers in Malaysia</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li><span class="t">Exploring the Role of Typography in Documentary Videos: A Case Study on Mineral Resources</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li><span class="t">An Analysis of Interaction Design Features in Virtual Reality Applications</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li><span class="t">Analysing the Elements of 3D Design in Semi-Immersive Virtual Reality Digital Learning</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li><span class="t">A Visual Analysis Study of Motion Graphic Effect as Visual Communication for Mental Health Empowerment</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li><span class="t">A Content Analysis of Motion Illustration as a Tool for Enhancing Audience Engagement in Radio Broadcasts</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li><span class="t">The Study of Motion Illustration Trends of The Tales of Sang Kancil</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li><span class="t">The Content Analysis of Motion Graphic Elements in Malaysian Music Videos</span><span class="k">journal</span><span class="y">2023</span></li>
+      <li class="more"><span class="t">An Exploratory Study on Elements of Video Content Used in Corporate Profile</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li class="more"><span class="t">Analysing the Effectiveness of Visual Aids for Learning in Kuala Lumpur Bird Park</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li class="more"><span class="t">Elements of Multimedia Used in the Jawi Mobile Application</span><span class="k">journal</span><span class="y">2025</span></li>
+      <li class="more"><span class="t">Psychological Communication in Digital Photography</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li class="more"><span class="t">An Integration of 3D Design in Malaysia Digital Tourism</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li class="more"><span class="t">An Inspiration Analysis of Digital Illustration Used in Augmented Reality</span><span class="k">journal</span><span class="y">2024</span></li>
+      <li class="more"><span class="t">The Usage of Motion Graphics in Promotional Videos: A Case Study for Digital Technology Hub</span><span class="k">journal</span><span class="y">2023</span></li>
+      <li class="more"><span class="t">Analysing the Effectiveness of Digital Illustration in Motion Graphics for Malaysian Sparkling Drink Products</span><span class="k">journal</span><span class="y">2023</span></li>
+    </ul>
+    <button class="btn-line" type="button" id="pubs-toggle" aria-expanded="false">show all 16</button>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section__head">
+      <h2>about me</h2>
+    </div>
+    <div class="about">
+      <figure class="about__art">
+        <img src="assets/miss-nur.png" alt="" loading="lazy">
+        <figcaption class="label">miss nur · vector master</figcaption>
+      </figure>
+      <div class="about__text">
+        <p class="lead">I'm Aniza, a senior lecturer in Creative Motion Design at the Faculty of Art &amp; Design, UiTM Puncak Alam.</p>
+        <p>My work sits where motion graphics, illustration and interactive media meet. I research that meeting point too: motion illustration in Malaysian media, typography in documentary film, and how 3D, AR and VR help people learn.</p>
+        <p>I'm a registered Professional Technologist (Ts.) in Art, Design &amp; Creative Multimedia Technology, and I'm in the final year of my PhD. I also build tools for my own teaching, like the FSSR 2026 dashboard, and characters like Miss Nur, who you met at the top of this page.</p>
+        <div class="facts">
+          <div>
+            <h3 class="label">education</h3>
+            <ul>
+              <li><span>now</span>PhD, final year</li>
+              <li><span>2007</span>MA Art &amp; Design (Visual Communication &amp; New Media)</li>
+              <li><span>2005</span>BA (Hons) Applied Art &amp; Design Technology</li>
+              <li><span>2000</span>Diploma in Multimedia Technology</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="label">grants &amp; consulting</h3>
+            <ul>
+              <li><span>2025</span>AR interactive system for dental care, Faculty of Dentistry</li>
+              <li><span>2023</span>Immersive VR film promotional tool for cinema</li>
+              <li><span>2022</span>Makanan Rakyat Selangor</li>
+              <li><span>2020</span>Designomics model for the jewellery industry</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="contact">
+      <h2>get in touch</h2>
+      <dl>
+        <div>
+          <dt>email</dt>
+          <dd><span id="email">aniza32@uitm.edu.my</span><button class="copy" type="button" data-copy="#email">copy</button></dd>
+        </div>
+        <div>
+          <dt>based in</dt>
+          <dd>Puncak Alam, Selangor, Malaysia</dd>
+        </div>
+        <div>
+          <dt>open to</dt>
+          <dd>Research collaboration, talks &amp; workshops</dd>
+        </div>
+        <div>
+          <dt>socials</dt>
+          <dd class="socials">
+            <a href="https://www.instagram.com/cahayanizalazim/" target="_blank" rel="noopener">instagram ↗</a>
+            <a href="https://www.tiktok.com/@cahayaniza" target="_blank" rel="noopener">tiktok ↗</a>
+            <a href="https://www.youtube.com/@cahayaniza" target="_blank" rel="noopener">youtube ↗</a>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__grid">
+    <p class="foot__name">nur aniza</p>
+    <div class="foot__col">
+      <span class="label">pages</span>
+      <a href="#work">work</a><a href="#research">research</a><a href="#about">about me</a>
+    </div>
+    <div class="foot__col">
+      <span class="label">socials</span>
+      <a href="https://www.instagram.com/cahayanizalazim/" target="_blank" rel="noopener">@cahayanizalazim</a>
+      <a href="https://www.tiktok.com/@cahayaniza" target="_blank" rel="noopener">tiktok @cahayaniza</a>
+      <a href="https://www.youtube.com/@cahayaniza" target="_blank" rel="noopener">youtube @cahayaniza</a>
+    </div>
+    <div class="foot__col">
+      <span class="label">contact</span>
+      <span>aniza32@uitm.edu.my</span>
+      <span>UiTM Puncak Alam</span>
+    </div>
+    <div class="foot__legal">
+      <span>© 2026 Nur Aniza Mohd Lazim</span>
+      <span>Faculty of Art &amp; Design, UiTM</span>
+    </div>
+  </div>
+</footer>
+
+<div class="view-cursor" data-view-cursor aria-hidden="true">view</div>
+
+<script src="hero.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

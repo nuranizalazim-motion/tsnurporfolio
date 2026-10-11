@@ -1,0 +1,15 @@
+# Static site: no build step, Netlify serves this folder as-is.
+[build]
+  publish = "."
+  command = ""
+
+# Sprite sheets, video and images rarely change; let browsers cache them.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
